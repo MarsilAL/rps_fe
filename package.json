@@ -1,0 +1,17 @@
+{
+  "name": "rps_fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "parcel build single.html index.html --out-dir docs  --public-url .",
+    "start": "parcel single.html  "
+  },
+  "author": "",
+  "license": "ISC"
+}
